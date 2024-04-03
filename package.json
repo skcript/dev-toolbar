@@ -12,11 +12,11 @@
     "url": "https://github.com/skcript/devbar.git"
   },
   "scripts": {
-    "dev": "yarn storybook",
+    "dev": "bun run storybook",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o public/storybook",
     "build": "vite build",
-    "package-publish": "yarn rimraf public && yarn build && npm version patch && yarn copyfiles README.md package.json public && cd public && npm publish"
+    "package-publish": "bun run rimraf public && bun run build && npm version patch && bun run copyfiles README.md package.json public && cd public && npm publish"
   },
   "dependencies": {
     "@storybook/react": "^8.0.5",
@@ -75,7 +75,6 @@
     "rollup-plugin-multi-input": "^1.4.1",
     "sass": "^1.72.0",
     "storybook": "8.0.5",
-    "storybook-dark-mode": "^4.0.1",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "5.4.3",
     "vite": "^4.5.3",
