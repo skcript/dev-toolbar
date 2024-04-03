@@ -11,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/skcript/devbar.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "dev": "yarn storybook",
     "storybook": "storybook dev -p 6006",
