@@ -6,6 +6,8 @@
   <p>Dev Toolbar is a simple utility that runs in the browser to help you glance at your web application's performance.</p>
 </div>
 
+<img alt="devtoolbar logo" src="./assets/dev-toolbar-hero.png">
+
 A simple developer toolbar for react based apps.
 
 ## Installation
