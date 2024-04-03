@@ -6,9 +6,24 @@
   <p>Dev Toolbar is a simple utility that runs in the browser to help you glance at your web application's performance.</p>
 </div>
 
-<img alt="devtoolbar logo" src="./assets/dev-toolbar-hero.png">
+<img alt="devtoolbar logo" align="center" src="./assets/dev-toolbar-hero.png">
 
 A simple developer toolbar for react based apps.
+
+## Dev Toolbar Features
+These are the metrics Dev Toolbar shows right now:
+
+- FPS
+- Memory
+- DOM elements size
+
+### Planned
+These are some of the planned features. Also [submit a new issue](https://github.com/skcript/dev-toolbar/issues/new) over here if you need some more to be incorporated.
+
+- [Chrome Extension](https://github.com/skcript/dev-toolbar/issues/3)
+- Dark and light mode
+- Custom buttons
+- Areas (islands) to render whatever you want
 
 ## Installation
 
