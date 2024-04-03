@@ -3,7 +3,7 @@
   <h1 align="center">
     Dev Toolbar
   </h1>
-  <p>Dev Toolbar is a simple utility that runs in the browser to help you glance at your web application's performance.</p>
+  <p>Dev Toolbar is a simple utility that runs in the browser to help you glance at your web application's performance. Originally built for [featureOS](https://featureos.app).</p>
 </div>
 
 <img alt="devtoolbar logo" align="center" src="./assets/dev-toolbar-hero.png">
