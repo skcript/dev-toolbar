@@ -28,20 +28,20 @@ These are some of the planned features. Also [submit a new issue](https://github
 ## Installation
 
 ```bash
-npm install devbar
+npm install dev-toolBar
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react'
-import DevBar from 'devbar'
+import DevToolBar from 'dev-toolBar'
 
 const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <DevBar />
+      <DevToolBar />
     </div>
   )
 }
