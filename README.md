@@ -1,4 +1,9 @@
-# DevBar
+<div align="center">
+  <h1 align="center">
+    Dev Toolbar
+  </h1>
+  <p>Dev Toolbar is a simple utility that runs in the browser to help you glance at your web application's performance.</p>
+</div>
 
 A simple developer toolbar for react based apps.
 
@@ -11,8 +16,8 @@ npm install devbar
 ## Usage
 
 ```jsx
-import React from 'react';
-import DevBar from 'devbar';
+import React from 'react'
+import DevBar from 'devbar'
 
 const App = () => {
   return (
@@ -20,9 +25,8 @@ const App = () => {
       <h1>Hello World</h1>
       <DevBar />
     </div>
-  );
-};
-
+  )
+}
 ```
 
 ## Contributing
@@ -32,3 +36,11 @@ const App = () => {
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feat-{feature-name}`
 5. Submit a pull request :D
+
+---
+
+## Sponsored by
+
+<a href='https://featureos.app'>
+<img alt="featureOS logo" height="60" src="./public/logo_full.png">
+</a>
